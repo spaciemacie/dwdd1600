@@ -1,0 +1,191 @@
+body {
+    background-color: #07070a;
+    color: #e4fbfa;
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+}
+
+/* Header stuff here */
+header {
+    background-color: #081f30;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #e4fbfa;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* Navigation stuff here */
+nav {
+    background-color: #e4fbfa;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #081f30;
+    font-weight: 600;
+}
+
+nav li.active a {
+    background-color: #081f30;
+    color: #e4fbfa;
+}
+
+nav li a:hover {
+    color: #CC0000;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #CC0000;
+}
+
+main h2 {
+    color: #e4fbfa;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #081f30;
+    color: #e4fbfa;
+}
+
+main dl dt {
+    color: #e4fbfa;
+    padding: .5rem 30px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #e4fbfa;
+    font-size: .9rem;
+    margin-top: 1rem;
+    padding: 0px 5px;
+}
+
+main ul {
+    list-style-type: circle;
+    padding: .5rem 30px;
+    background-color: #081f30;
+    color: #e4fbfa;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    font-weight: 600;
+    background-color: #081f30;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #e4fbfa;
+    width: 200px;
+}
+
+main a {
+    color: #CC0000;
+}
+
+main a:hover {
+    color: #e4fbfa;
+}
+
+/* main image stuff goes here */
+figure.home {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+
+figure.home img {
+    width: 100%;
+    height: auto;
+}
+
+figure.home figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+/* steven wilson image stuff goes here */
+figure.steven {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+
+figure.steven img {
+    width: 100%;
+    height: auto;
+}
+
+/* archive image stuff goes here */
+div.archive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.archive figure {
+    margin: 0;
+
+}
+
+div.archive figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #e4fbfa; 
+}
+
+
+
+/* footer stuff goes here */
+footer {
+    color: #e4fbfa;
+    background-color: #081f30;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+
+}
