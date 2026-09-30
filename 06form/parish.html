@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Macie McBride">
+    <meta name="description" content="Homepage for Porcupine Tree fan site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="porcupine.css">
+    <title>Who is Porcupine Tree: Home Page</title>
+</head>
+
+<body>
+    <!--Start the Page Head-->
+    <header>
+        <span>Who is Porcupine Tree</span>
+    </header>
+
+    <!--Start the navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stevenwilson.html">Who is Steven Wilson?</a></li>
+            <li><a href="porcupinetree.html">Who is Porcupine Tree?</a></li>
+            <li><a href="albums.html">Albums</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li class="active"><a href="parish.html">Parish</a></li>
+        </ul>
+
+
+    </nav>
+    <!--Start the main content-->
+    <main>
+        <h1>Inquiry for the Parish...</h1>
+        <form method="get" class="myForm" action="inquirynoted.html">
+            <fieldset>
+                <legend>New Member information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="020-174-1106"></label>
+                <label>Email*<input type="email" name="email" required
+                        placeholder="arnoldperdrix1106@village.council"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Send Your Message to a Specific Council Member</legend>
+                <label><input type="radio" name="member" value="mrsehiggins">Mrs. E Higgins, Chair. Chapel Slope
+                    Ward.</label>
+                <label><input type="radio" name="member" value="mrjpendelton">Mr. J. Pendelton, Vice-Chair. High Street
+                    Ward.</label>
+                <label><input type="radio" name="member" value="mrsapendelton">Mrs. A. Pendelton, Councillor. Church
+                    Lane Ward.</label>
+                <label><input type="radio" name="member" value="mrrmarsh">Mr. R. Marsh, Councillor. Wake Farm
+                    Ward.</label>
+                <label><input type="radio" name="member" value="arnoldperdrix">Arnold Perdrix, Parish Clerk &
+                    Webmaster.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Information Request Type</legend>
+                <label></label><input type="checkbox" name="join" value="chosen">Join the Parish</label>
+                <label></label><input type="checkbox" name="clubs" value="chosen">Clubs & Societies info</label>
+                <label></label><input type="checkbox" name="hirefacilities" value="chosen">Hall Hire and
+                Facilities</label>
+                <label></label><input type="checkbox" name="services" value="chosen">Offered Services</label>
+                <label></label><input type="checkbox" name="events" value="chosen">Upcoming Events and Fete</label>
+
+                <label>Preferred Response Method
+                    <select name="deliverymethod">
+                        <option value="none">Please select a response method.</option>
+                        <option value="mailcoach">Mail Coach Service (1-2 weeks delivery time)</option>
+                        <option value="railway">Railway Mail Service(2-3 weeks delivery time)</option>
+                        <option value="bird">Messenger Pigeon (5-7 weeks delivery time)</option>
+                        <option value="email">Email (2-7 days response time)</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Additional information
+                <textarea name="addquestion" placeholder="Request Additional Information"></textarea>
+            </label>
+
+
+            <input type="submit" value="State Inquiry">
+
+
+
+
+
+        </form>
+        <p><em>Visit the Village website <a href="https://requiemforavillage.com/" target="_blank">here.</a></em></p>
+
+
+
+    </main>
+
+    <!--Start the page footer-->
+    <footer>
+        <clear: both;>
+            <p>&copy; 2026 &bull; Macie McBride &bull; Who is Porcupine Tree</p>
+    </footer>
+
+</body>
+
+</html>
